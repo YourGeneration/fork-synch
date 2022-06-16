@@ -25,7 +25,14 @@ int main(int argc, char** argv) {
         default:
             printf("Jestem rodzicem PID potomka, moj PID =%d a PID rodzica=%d\n",pid_moj,pid_rodzica);
             do{
-                if((pid_potomka=wait(&status))>0){
+                if(pid_potomka==0){
+            		printf("Czekam na zakończenie procesu\n");
+            		sleep(1);
+            	}
+                else if((pid_potomka=waitpid(pid_potomka, &status, WNOHANG))==-1){
+            		printf("Błąd\n");
+            	}
+                else{
             		printf("PID zakończonego procesu %d\n",pid_potomka);
             	}
             }while(pid_potomka==0)
