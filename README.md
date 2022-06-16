@@ -42,7 +42,7 @@ się\n");
 ```
 
 * [Przed Modyfikacją](https://github.com/YourGeneration/fork-synch/commit/66dc95121fb67088954f46939aa903df5018c913)
-* [Po Modyfikacji](https://github.com/YourGeneration/fork-synch/commit/66dc95121fb67088954f46939aa903df5018c913)
+* [Po Modyfikacji](https://github.com/YourGeneration/fork-synch/commit/f5257e15614212cb145c075a7a6bd8d2a57e727e)
 
 
 ## Autor
