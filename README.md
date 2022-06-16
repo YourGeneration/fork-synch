@@ -2,11 +2,6 @@
 
 Laboratorium - Wstęp do systemów operacyjnych
 
-## Table of contents
-* [Zadanie 7.6](#zadanie-7.6)
-* [Zadanie 7.7](#zadanie-7.7)
-* [Zadanie 7.9](#zadanie-7.9)
-
 ## Zadanie 7.6
 Uwaga! W zadaniu 7.6 i 7.7 przed uruchomieniem należy dopisać deklaracje "int status" :)
 
